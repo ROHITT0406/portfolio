@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit || Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h4>Rohit.</h4>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Rohit</span> </h1>
+            </div>
+        </div>
+    </div>
+
+  <!--about-->  
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/rohit.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a passionate Full Stack Developer and Django Developer with a strong interest in building clean, functional, and user-focused web applications. I enjoy working across the stack — crafting responsive frontends with HTML, CSS, and JavaScript, and developing powerful backend systems using Django and Python. With hands-on experience in authentication, RESTful APIs, and database management, I strive to write maintainable code and deliver smooth, secure user experiences. I’m always eager to learn and grow, staying up-to-date with the latest in web development.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                       <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p>-->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>Python ,JavaScript</li>
+                            <li><span> Frameworks </span><br>Django, Django REST ,Bootstrap</li>
+
+                            <li><span>Database</span><br> SQl</li>
+                            <li><span>Tools</span><br>Jupyter Notebook, VS Code, MySQL, Git</li>
+
+                            
+                        </ul>
+                    </div>
+                  <!--  <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - current</span><br>UI/UX Design Taining at ET institute</li>
+                            <li><span>UI/UX</span><br>Desiging web/App interfaces</li>
+
+                            <li><span>UI/UX</span><br>Desiging web/App interfaces</li>
+
+                            
+                        </ul>
+                    </div>-->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br> Bachelor of Technology(CSE): KIET Group of Institutions, Ghaziabad</li>
+                            <li><span>2021</span><br>Higher Secondary: Kendriya Vidyalaya, Muradnagar</li>
+
+                            <li><span>2019</span><br>Secondary: Kendriya Vidyalaya, Muradnagar</li>
+
+                            
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-----------services--------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+         <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>FullStack developer </h2>
+                <p>I'm a Full Stack Developer skilled in building responsive web applications using HTML, CSS, JavaScript, and Python (Django). I manage both frontend design and backend logic, with experience in database management, authentication systems, and creating RESTful APIs. I focus on delivering smooth, secure, and user-friendly digital experiences from start to finish.</p>        
+                <a href="https://www.google.com/search?q=what+is+full+stack+developer&rlz=1C1CHBF_enIN1136IN1136&oq=what+is+full&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDc1OTZqMGo3qAIIsAIB8QVslUgN86ghUg&sourceid=chrome&ie=UTF-8" target="_blank">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Django Developer</h2>
+                <p>I'm a Django Developer focused on building secure, scalable, and efficient web applications. I specialize in backend development using Django, with experience in creating RESTful APIs, handling user authentication, managing databases, and integrating frontend components. I aim to deliver clean, maintainable code and robust backend logic for dynamic, data-driven applications.</p>        
+                <a href="https://www.google.com/search?q=what+is+django+developer&rlz=1C1CHBF_enIN1136IN1136&oq=what+is+django&gs_lcrp=EgZjaHJvbWUqDQgDEAAYkQIYgAQYigUyEggAEEUYORiRAhixAxiABBiKBTINCAEQABiRAhiABBiKBTINCAIQABiRAhiABBiKBTINCAMQABiRAhiABBiKBTIHCAQQABiABDIHCAUQABiABDIMCAYQABgUGIcCGIAEMgcIBxAAGIAEMgcICBAAGIAEMgcICRAAGIAE0gEINDkzNWowajeoAgiwAgHxBbfvx6ii58N6&sourceid=chrome&ie=UTF-8" target="_blank">learn more</a>
+            </div>
+         </div>
+    </div>
+</div>
+<!---------portfolio--------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>BrainBuddy Website</h3>
+                    <p>BrainBuddy is a web application built with Django,. It allows users to create virtual study rooms, join existing ones, and share study materials. Users can engage in meaningful discussions by adding comments to different rooms and interacting with other students in real time.</p>
+                    <a href="https://github.com/ROHITT0406/Brain-buddy" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Ecommerce Website</h3>
+                    <p>An Amazon-inspired eCommerce web app with dynamic cart management, delivery options, order tracking, and real-time UI updates. Built using modular JavaScript and Day.js for date handling.</p>
+                    <a href="https://github.com/ROHITT0406/Amazon-projects" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Youtube Clone</h3>
+                    <p>YouTube Clone: A feature-rich web application replicating the core functionalities of YouTube, including video uploads, playback, user accounts, and comments, providing a seamless video streaming and sharing experience.</p>
+                    <a href="https://github.com/ROHITT0406/Youtube-clone" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/ROHITT0406" target="_blank" class="btn"><i class="fa-brands fa-github"></i> See more</a>
+    </div>
+</div>
+<!----contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rohitsir062003@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>9917703065</p>
+                <div class="social-icons">
+                    
+                    <a href="https://www.linkedin.com/in/rohit5616/" target="_blank" ><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ROHITT0406" target="_blank" ><i class="fa-brands fa-github"></i></a>
+                
+
+
+                </div>
+                <a href="images/ROHIT_CV.pdf"  download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"> 
+                 <form name="submit-to-google-sheet">
+                <input type="text" name="Name" id="" placeholder="Your Name" required>
+                <input type="email" name="Email" id="" placeholder="email" required>
+                <textarea name="Message" rows="6" id=""placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+          
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©Rohit. </p>
+    </div>
+</div>
+    <script>
+        const tablinks = document.getElementsByClassName("tab-links");
+        const tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove('active-link');
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+
+    </script>
+    <script>
+        const sidemeu=document.getElementById('sidemenu');
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxIZFLdas8_28tb_IvlSTHeTC299TqsScfgmcN8vIk2FTgpYUyxzc4YUGs6uY8aDna6/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById('msg')
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Message sent successfully"
+            setTimeout(()=>{
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
