@@ -26,9 +26,18 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Web Developer</p>
+                <!--<p>Web Developer</p>-->
                 <h1>Hi, I'm <span>Rohit</span> </h1>
+                <p>I'm a <span class="typing"></span></p>
             </div>
+            <div class="tech-icons">
+                <i class="fa-brands fa-python python"></i>
+                <i class="fa-solid fa-database"></i>
+                <i class="fa-brands fa-js javaScript"></i>
+                <i class="fa-brands fa-html5 html"></i>
+                <i class="fa-brands fa-css3-alt code"></i>
+                <i class="fa-solid fa-code simple"></i>
+              </div>
         </div>
     </div>
 
@@ -215,6 +224,27 @@
         })
         .catch(error => console.error('Error!', error.message))
     })
+  </script>
+  <script>
+    const texts = ["Full Stack Developer", "Django Enthusiast", "Tech Learner"];
+let count = 0;
+let index = 0;
+let currentText = '';
+let letter = '';
+(function type(){
+    if (count === texts.length) count = 0;
+    currentText = texts[count];
+    letter = currentText.slice(0, ++index);
+    document.querySelector(".typing").textContent = letter;
+    if(letter.length === currentText.length){
+        count++;
+        index = 0;
+        setTimeout(type, 1000);
+    } else {
+        setTimeout(type, 100);
+    }
+})();
+
   </script>
 </body>
 </html>

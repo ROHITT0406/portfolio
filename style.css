@@ -17,6 +17,41 @@ body{
     background-image: url(images/bg2.avif);
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+.tech-icons i {
+    font-size:100px ;
+}
+.tech-icons .fa-solid{
+    position: absolute;
+    right: 300px;
+    top: 150px;
+}
+.tech-icons .python{
+    position: absolute;
+    right: 550px;
+    top: 250px;
+}
+.tech-icons .javaScript{
+    position: absolute;
+    right: 190px;
+    top: 350px;
+}
+.tech-icons .html{
+    position: absolute;
+    right: 700px;
+    top: 450px;
+}
+.tech-icons .code{
+    position: absolute;
+    right: 390px;
+    top: 510px;
+}
+.tech-icons .simple{
+    position: absolute;
+    right: 690px;
+    top: 150px;
+    font-size: 65px;
 }
 .container{
     padding: 10px 10%;
